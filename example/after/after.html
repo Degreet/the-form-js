@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>TheForm.js</title>
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <script src="../js/bootstrap.bundle.min.js"></script>
+  <script src="../../src/TheForm.js"></script>
+  <script src="after.js" defer></script>
+</head>
+<body>
+  <main>
+    <div class="container pt-5" style="max-width: 400px">
+      <h1 class="mb-3"><a href="../../index.html">Авторизация</a></h1>
+      <form the-form="first">
+        <input name="login" placeholder="Логин" type="text" class="form-control mt-2">
+        <input name="pwd" placeholder="Пароль" type="password" class="form-control mt-2">
+
+        <select name="gender" class="form-control mt-2">
+          <option value="male">Мужской</option>
+          <option value="female">Женский</option>
+        </select>
+
+        <button class="btn btn-primary mt-3" style="width: 100%">Войти</button>
+      </form>
+    </div>
+  </main>
+</body>
+</html>
